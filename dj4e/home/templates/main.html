@@ -6,7 +6,10 @@
 {% if user.is_authenticated %}
 <p>
 <ul>
-    <li>Try <a href="autos">Autos Crud</a></li>
+    #<li>Try <a href="autos">Autos Crud</a></li>
+    #<li><a href="/cats">Cats CRUD</a>
+     <li><a href="/dogs">Dogs CRUD</a>
+     <li><a href="/stars">Stars CRUD</a>
 </ul>
 </p>
 <p><a href="{% url 'logout'%}?next={{request.path}}">Logout</a></p>   
